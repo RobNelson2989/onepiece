@@ -1,13 +1,18 @@
+body {
+    background-color: #cce0ff;
+}
+
 .about-container {
     height: 700px;
     width: 100%;
+    background-color: #cce0ff;
    
 }
 
 .about-col {
     height: 700px;
     width: 30%;
-    border: 3px solid blue;
+    border-style: outset;
     float: left;
     margin-top: 120px;
     margin-left: 30px;

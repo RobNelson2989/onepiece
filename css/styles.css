@@ -33,11 +33,11 @@ body {
 }
 
 .hero-content {
-    color: white;
+    color: black;
     background-color: rgba(128, 191, 255, .9);
     height: 100px;
     width: 200px;
-    border: 3px solid blue;
+    border-style: outset;
     position: absolute;
     top: 0px;
     left: 406px;
@@ -67,13 +67,14 @@ body {
 .home-content {
     height: 650px;
     width: 100%;
+    background-color: #cce0ff;
 }
 
 .box {
     float: left;
     height: 500px;
     width: 42%;
-    border: solid 3px blue;
+    border-style: outset;
     margin: 0 auto;
     padding: 50px;
 }

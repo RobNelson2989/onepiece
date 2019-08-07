@@ -1,8 +1,14 @@
+body{
+    background-color: #cce0ff;
+}
+
 .contact-col{
     height: 700px;
     width: 48%;
-    border: blue solid 3px;
+    border-style: outset;
     float: left;
+    margin-left: 15px;
+    margin-bottom: 20px;
     
 }
 
@@ -10,9 +16,14 @@
     height: 700px;
     width: 100%;
     margin-top: 150px;
+    
 }
 
 iframe{
     width: 100%;
+}
+
+.footer{
+    margin-top: 30px;
 }
 
