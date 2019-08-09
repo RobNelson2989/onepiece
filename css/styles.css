@@ -33,15 +33,17 @@ body {
 }
 
 .hero-content {
-    color: black;
+    color: #11114c;
     background-color: rgba(128, 191, 255, .9);
     height: 100px;
     width: 200px;
     border-style: outset;
+    border-color: #4e4545;
     position: absolute;
-    top: 0px;
+    top: 22px;
     left: 406px;
     text-align: center;
+    font-family: 'Lobster';
 }
 
 
@@ -51,17 +53,22 @@ body {
     margin: 20px;
     list-style-type: none;
     border: 3px solid navy;
+    border-style: double;
+    border-color: navy;
     border-radius: 25px;
+    font-family: 'Lobster', cursive;
 }
 
 .list-item a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 20px;
+    /* font-family: 'Lobster', cursive; */
 }
 
 .list-item a:hover {
     color:yellow;
+    size: 4em;
 }
 
 .home-content {
